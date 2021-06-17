@@ -17,7 +17,7 @@ class CreateTravelsTable extends Migration
             $table->id();
             $table->string('name', 30);
             $table->string('destination', 30);
-            $table->string('description', 200);
+            $table->text('description');
             $table->smallInteger('price');
             $table->string('image', 200);
             $table->timestamps();
