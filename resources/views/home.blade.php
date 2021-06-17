@@ -17,11 +17,10 @@
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="{{ $travel->image }}" alt="{{ $travel->destination }}">
                 <div class="card-body">
-                <h3 class="card-title">{{ $travel->name }}</h3>
-                <h5 class="card-title">{{ $travel->destination }}</h5>
-                <p class="card-text">{{ $travel->description }}</p>
-                <h5 class="card-text">{{ $travel->price }} €</h5>
-                
+                    <h3 class="card-title">Pacchetto: {{ $travel->name }}</h3>
+                    <h5 class="card-title">{{ $travel->destination }}</h5>
+                    <p class="card-text">{{ $travel->description }}</p>
+                    <h5 class="card-text">{{ $travel->price }} €</h5>
                 </div>
             </div>
             @endforeach

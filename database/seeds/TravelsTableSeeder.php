@@ -14,7 +14,7 @@ class TravelsTableSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
-        for($i = 0; $i < 5; $i++) {
+        for($i = 0; $i < 10; $i++) {
             $new_travel = new Travel();
 
             $new_travel->name = $faker->word(2, true);
